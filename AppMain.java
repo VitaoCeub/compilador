@@ -1,5 +1,6 @@
+package analizador;
 
-import analizador.AnalisadorLexico;
+
 import java.io.IOException;
 import java.util.Scanner;
 

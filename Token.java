@@ -1,3 +1,8 @@
+package analizador;
+
+
+
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -8,12 +13,9 @@
  *
  * @author vitor_000
  */
-public class Token {
-    private String nome;
-    private int valor;
+public enum Token {
+    FIM_SENTENCA, LACO_REP, SENT_IF, CLAUSULA_ELSE, TIPO_RETORNO, VISIBILIDADE, TIPO_DIG,
+    TIPO_LETRA, COMPARACAO, ATRIBUICAO, OPERADOR, PAR_ESQ, PAR_DIR, CHAVE_DIR, CHAVE_ESQ,
+    COL_ESQ, COL_DIR, CHAM_METODO, DECLARE_VETOR, DECLARE_CLASSE, ID, INT, ERRO
     
-    public Token (String nome, int valor){
-        this.nome = nome;
-        this.valor = valor;
-    }
 }
