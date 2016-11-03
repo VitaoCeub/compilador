@@ -19,6 +19,7 @@ Digite na linha de comando todo o seu programa java. O compilador começa a reco
 Para finalizar, digite cntlr+D (^D) (NO LINUX) ou cntlr+Z (^Z) (NO WINDOWS)
 
 ---> Programa usado como teste:
+
 public class vitor { 
 	public static void main (String args []) {
 		int i = 10;
