@@ -8,10 +8,15 @@ A gramática encontra-se no arquivo gramatica.g4
 Baixe a gramatica ou todos os arquivos disponíveis neste site. 
 Entre no diretório onde baixou os arquivos.
 Se você baixou todos os arquivos, este passo é desnecessário. Caso queira executar do início, digite o comando abaixo no CMD ou no terminal do linux:
+
 $ antlr4 gramatica.g4
+
 Compile o programa com o comando:
+
 $ javac gramatica*.java
+
 Depois basta executar, com o comando:
+
 $ grun gramatica inicio -gui
 
 ---> Como funciona:
