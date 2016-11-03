@@ -41,8 +41,6 @@ public class vitor {
 	}	
 }
 
-
------------------------------------------------------------------------------------------------------
 Está disponível a versão do analisador lexico para a linguagem JAVA.
 A gramática encontra-se no arquivo Lexer.flex.
 Para utilizá-lo, coloque todos os arquivos dentro de uma pasta com o nome analizador (pacote).
