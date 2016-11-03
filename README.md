@@ -28,6 +28,8 @@ $ grun gramatica inicio -gui
 
 Digite na linha de comando todo o seu programa java. O compilador começa a reconhecer a partir da definição de classe, mas se desejar, você pode pular esta etapa, colocando apenas as próximas linhas.
 
+Será construída a árvore de derivação, caso haja algum erro será exibida nela e na saída do seu terminal ou CMD.
+
 Para finalizar, digite cntlr+D (^D) (NO LINUX) ou cntlr+Z (^Z) (NO WINDOWS)
 
 ---> Programa usado como teste:
