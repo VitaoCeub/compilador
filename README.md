@@ -1,12 +1,17 @@
 # compilador
 
 Está disponível a versão do analisador Sintático para a linguagem JAVA.
+
 Para executá-lo, você irá precisar do ANTLR. Um tutorial de como o instalar está disponível no site: https://github.com/antlr/antlr4/blob/master/doc/getting-started.md .
+
 A gramática encontra-se no arquivo gramatica.g4
 
 --- > Executando: 
+
 Baixe a gramatica ou todos os arquivos disponíveis neste site. 
+
 Entre no diretório onde baixou os arquivos.
+
 Se você baixou todos os arquivos, este passo é desnecessário. Caso queira executar do início, digite o comando abaixo no CMD ou no terminal do linux:
 
 $ antlr4 gramatica.g4
@@ -20,7 +25,9 @@ Depois basta executar, com o comando:
 $ grun gramatica inicio -gui
 
 ---> Como funciona:
+
 Digite na linha de comando todo o seu programa java. O compilador começa a reconhecer a partir da definição de classe, mas se desejar, você pode pular esta etapa, colocando apenas as próximas linhas.
+
 Para finalizar, digite cntlr+D (^D) (NO LINUX) ou cntlr+Z (^Z) (NO WINDOWS)
 
 ---> Programa usado como teste:
@@ -45,6 +52,8 @@ public class vitor {
 		}
 	}	
 }
+
+---------------------------------
 
 Está disponível a versão do analisador lexico para a linguagem JAVA.
 A gramática encontra-se no arquivo Lexer.flex.
