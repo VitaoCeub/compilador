@@ -1,0 +1,20 @@
+public class vitor { 
+	public void pmetodo ( int reno ) { 
+		int asuhsahusa  = 10;
+		int z=10+i*30+(40+i);
+		while (i < 20) {
+		 	i++;
+		}
+		for (int i=10 ; i<=z ; i--){
+			teste = 3;
+		}
+	}
+
+	public void metodo (int teste) {
+    		if (teste < 30){
+        		z=40+3*4;
+    		} else {
+        		z=i;
+    		}
+	}   
+}
