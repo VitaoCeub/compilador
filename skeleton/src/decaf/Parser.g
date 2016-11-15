@@ -16,9 +16,11 @@ options
 
 
 program : visibilidade TK_class ID ABRE_COLUNA exp FECHA_COLUNA | exp ;
-exp: (exp_alteracao | exp_metodo | declare_var | exp_incremento | exp_while | exp_if | exp_for | declare_var_atri | operacao FIM_SENTENCA)+;
+exp: (exp_alteracao | exp_metodo | declare_var | exp_incremento | exp_while | exp_if | exp_for | declare_var_atri | exp_retorno| operacao FIM_SENTENCA)+;
 
 //metodo_main : "public static void main" ("(String args [])"|"(String [] args)") "{"exp"}";
+
+exp_retorno : TK_return (numero_id|operacao) FIM_SENTENCA;
 
 exp_metodo : visibilidade tipo_retorno ID ABRE_PAR (conjunto_declare)? FECHA_PAR ABRE_COLUNA exp FECHA_COLUNA;
 
