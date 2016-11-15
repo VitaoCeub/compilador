@@ -8,6 +8,7 @@ public class vitor {
 		for (int i=10 ; i<=z ; i--){
 			teste = 3;
 		}
+		return 30;
 	}
 
 	public void metodo (int teste) {
